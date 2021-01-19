@@ -1,15 +1,23 @@
 {
   "name": "my_base_node_setup",
   "version": "1.0.0",
-  "description": "",
+  "description": "My base node/express setup",
   "main": "index.js",
   "scripts": {
     "start": "nodemon --exec babel-node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "Peter Carroll",
+  "email": "petelc1966@hotmail.com",
+  "url": "traxs.dev",
   "license": "ISC",
+  "repository": {
+    "url" : "https://github.com/petelc/my_base_node_setup"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
